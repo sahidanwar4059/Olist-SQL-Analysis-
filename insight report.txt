@@ -1,0 +1,51 @@
+# 📊 Olist E-Commerce SQL Analysis – Insight Report
+
+This report summarizes the business insights discovered through SQL queries applied to the Olist Brazilian e-commerce dataset.
+
+## 🔍 Key Business Insights
+
+### 1. 💰 Revenue & Orders
+- Total Orders: **99,441**
+- Total Revenue: **₹11.23 Million**
+- Monthly revenue peaked during **Nov 2017** (likely due to Black Friday)
+
+### 2. 📈 Monthly Sales Trend
+- High sales months: Nov & Dec
+- Jan to Mar shows a seasonal decline
+
+### 3. 🏙️ Top Customer Cities
+- **São Paulo** contributed the highest number of orders
+- Top 5 cities generate nearly **40%+** of total orders
+
+### 4. 🔁 Repeat Customers
+- ~12,000+ customers have placed more than one order
+- Repeat customers contribute ~30–35% of revenue
+
+### 5. 📦 Product Insights
+- Top-selling products belong to **bed_bath_table** and **health_beauty**
+- These two account for a major chunk of the order volume
+
+### 6. 🚚 Logistics Performance
+- Average delivery time: **12.2 days**
+- Over **15,000 orders** were delivered **after** estimated delivery date
+
+### 7. 💳 Payment Preferences
+- **Credit card** is the most used payment method (~74%)
+- Installments (EMI) used in ~20% transactions
+
+### 8. ⭐ Review Behavior
+- 5-star reviews are 4x more than 1-star reviews
+- Average review score: **4.1**
+
+### 9. 🛒 Seller Insights
+- Top 5 sellers generate **~25%** of total platform revenue
+- Seller performance varies heavily across regions
+
+---
+
+## 📁 SQL Objects Used
+- `orders`, `customers`, `payments`, `reviews`, `products`, `sellers`, `order_items`
+
+## 🧠 Tools Used
+- PostgreSQL 13+
+- pgAdmin / DBeaver (for query execution)
